@@ -154,7 +154,7 @@ mv /etc/sysctl.conf /etc/sysctl.conf.bak
 
 
 #update 
-yum -y update  glibc glibc-devel glibc-common glibc-headers bash
+yum -y update  glibc glibc-devel glibc-common glibc-headers bash bash-completion
 yum -y install gcc gcc-c++ vim-enhanced unzip  sysstat cmake pcre-devel wget dos2unix
 yum -y install ncurse ncurse-devel bison ntp git
 yum -y install patch make gcc gcc-c++ flex bison file
